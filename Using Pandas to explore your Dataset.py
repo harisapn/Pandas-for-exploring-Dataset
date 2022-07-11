@@ -15,23 +15,6 @@ with open(target_csv_path, "wb") as f:
 print("Download ready.")
 
 
-# In[7]:
-
-
-import pandas as pd
-nba = pd.read_csv("nba_all_elo.csv")
-type(nba)
-<class 'pandas.core.frame.DataFrame'>
-
-
-# In[8]:
-
-
-import pandas as pd
-nba = pd.read_csv("nba_all_elo.csv")
-type(nba)
-<class 'pandas.core.frame.DataFrame'>
-
 
 # In[12]:
 
@@ -151,7 +134,7 @@ city_data.axes[1]
 #questioning with keys relates to columns
 "Amsterdam" in city_data
 "revenue" in city_data
-"pts" in nba.keys():
+"pts" in nba.keys()
 
 
 
